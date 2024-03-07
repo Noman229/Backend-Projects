@@ -1,0 +1,16 @@
+.friendListItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.friendListItem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friendName{
+    font-size: 18px;
+    font-weight: 500;
+}

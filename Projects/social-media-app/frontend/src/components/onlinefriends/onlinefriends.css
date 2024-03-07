@@ -1,0 +1,30 @@
+.onlineFriendsListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.onlineFriendImage{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.onlineFriendProfile{
+    position: relative;
+}
+.onlineIcon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #fff;
+    background-color: limegreen;
+}
+.onlineFriendName{
+    font-size: 16px;
+    font-weight: 600;
+}

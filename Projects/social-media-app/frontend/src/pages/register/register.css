@@ -1,0 +1,79 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.loginWrapper{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+.loginLeft{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.siteLogo h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: #2374e7;
+}
+.loginDesc{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 38px;
+}
+.loginRight{
+    flex: 6;
+}
+.loginForm {
+    width: 100%;
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.loginInput{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px;
+    color: #222;
+    margin-bottom: 20px;
+}
+.loginForm button{
+    display: block;
+    width: 100%;
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 40px;
+    background-color: #2374e7;
+    border: 1px solid #2374e7;
+    color: white;
+    border-radius: 5px;
+}
+.forgotPassword{
+    color: #2374e7;
+    font-size: 13px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+.forgotPassword:hover{
+    text-decoration: underline ;
+}
+.loginForm .loginRegisterBtn{
+    background-color: limegreen;
+    border-color: limegreen;
+}
