@@ -16,6 +16,7 @@
 .topbarLeft h1 {
     font-size: 36px;
     color: white;
+    text-decoration: none;
 }
 .topbarCenter{
     flex: 6;
